@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Login-and-registration-form
 
-You can use the [editor on GitHub](https://github.com/akinbo-emmanuel/Login-and-Registration-Form/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Login-and-Registration-Form is an HTML, CSS and JavaScript template for login and registration.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation
 
-### Markdown
+Copy the link to this repository. Open your terminal and type in:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+git clone "link"
 ```
+or simply fork this repository to yours.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Usage
 
-### Jekyll Themes
+Open the folder using any code editor of your choice.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akinbo-emmanuel/Login-and-Registration-Form/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? [Contact support](royal.media@gmail.com) and we’ll help you sort it out.
