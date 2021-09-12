@@ -1,3 +1,7 @@
+:root {
+	--gradient: linear-gradient(to right, #ff105f, #ffad06);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -26,19 +30,38 @@
 
 .button-box{
   width: 220px;
-  margin: 35px auto;
+  height: 80px;
+  margin: 10px auto;
   position: relative;
   box-shadow: 0 0 20px 9px #ff61241f;
   border-radius: 30px;
 }
 
+.button-group-h {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 6px;
+}
+
 .toggle-btn {
   padding: 10px 30px;
+  margin: 4px;
   cursor: pointer;
-  background: transparent;
   border: 0;
   outline: none;
   position: relative;
+  background: var(--gradient);
+  border-radius: 7px;
+  color: #fff;
+  transition: 1s;
+}
+
+.toggle-btn:hover {
+	color: #eee;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	background: linear-gradient(to left, #ff105f, #ffad06);
 }
 
 #btn {
@@ -53,7 +76,6 @@
 }
 
 .social-icons{
-  margin: 30px auto;
   text-align: center;
 }
 
@@ -94,6 +116,7 @@
   border: 0;
   outline: none;
   border-radius: 30px;
+  color: wheat;
 }
 
 .check-box{
@@ -109,6 +132,10 @@ span{
   font-size: 12px;
   bottom: 68px;
   position: absolute;
+}
+
+form {
+	padding-top: 1em;
 }
 
 #login{
